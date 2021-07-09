@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1625786868 source:c:\users\55519\desktop\tec_infoweb\semestre1info1\profsandra_logicaelinguagemc\avaliacao2_c\calculocomissao\main.c
+	<stdio.h>
+	<stdlib.h>
+
