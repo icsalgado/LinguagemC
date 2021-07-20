@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <locale.h>
 /*
-Este programa pega dois inteiros, os soma e exibe o resultado na tela
-Entradas: dois valores inteiros (lidos via teclado)
-Saída: a soma dos dois valores lidos
+Troque o tipo das variáveis de int para float (e os símbolos de %d para %f, nos comandos scanf e printf) e
+execute novamente o programa. Observe como foram apresentados os valores lidos. Execute algumas vezes fornecendo
+valores com parte fracionária (lembre de não utilizar "." em lugar de "," para denotar o ponto decimal).
 */
 
 
@@ -12,17 +12,17 @@ int main()
 {
     setlocale(LC_ALL, "Portuguese");
 
-    int val1, val2; //Declaração da variáveis de entrada
-    int soma; //Declaração da variável com o resultado
+    float val1, val2; //Declaração da variáveis de entrada
+    float soma; //Declaração da variável com o resultado
 
     printf("Valor do primeiro termo da soma:\n");
-    scanf("%d", &val1);
+    scanf("%f", &val1);
     printf("Valor do segundo termo da soma:\n");
-    scanf("%d", &val2);
+    scanf("%f", &val2);
 
     soma = val1 + val2;
 
-    printf("Resultado da soma: %d", soma);
+    printf("Resultado da soma: %f", soma);
 
     return 0;
 }

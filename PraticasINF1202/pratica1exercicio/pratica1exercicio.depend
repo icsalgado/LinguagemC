@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1626805069 source:c:\users\55519\desktop\materialextraiuri\linguagemc\workspace\praticasinf1202\pratica1exercicio\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
