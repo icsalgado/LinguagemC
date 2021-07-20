@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1626792127 source:c:\users\55519\desktop\materialextraiuri\linguagemc\workspace\atividadesresolvidasprofsandra\exercicio4aprovado\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

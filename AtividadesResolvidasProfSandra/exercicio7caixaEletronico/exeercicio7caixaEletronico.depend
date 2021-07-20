@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1626795648 source:c:\users\55519\desktop\materialextraiuri\linguagemc\workspace\atividadesresolvidasprofsandra\exeercicio7caixaeletronico\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
