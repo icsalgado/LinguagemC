@@ -2,9 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 /*
-Troque o tipo das variáveis de int para float (e os símbolos de %d para %f, nos comandos scanf e printf) e
-execute novamente o programa. Observe como foram apresentados os valores lidos. Execute algumas vezes fornecendo
-valores com parte fracionária (lembre de não utilizar "." em lugar de "," para denotar o ponto decimal).
+Modifique o programa para ler 3 números e fornecer a soma e o produto, cada um em uma linha, com mensagens explicando as saídas.
 */
 
 
@@ -12,17 +10,20 @@ int main()
 {
     setlocale(LC_ALL, "Portuguese");
 
-    float val1, val2; //Declaração da variáveis de entrada
-    float soma; //Declaração da variável com o resultado
+    float val1, val2, val3; //Declaração da variáveis de entrada
+    float soma, produto; //Declaração da variável com o resultado
 
-    printf("Valor do primeiro termo da soma:\n");
+    printf("Valor do primeiro termo:\n");
     scanf("%f", &val1);
-    printf("Valor do segundo termo da soma:\n");
+    printf("Valor do segundo termo:\n");
     scanf("%f", &val2);
+    printf("Valor do terceiro termo:\n");
+    scanf("%f", &val3);
 
-    soma = val1 + val2;
+    soma = val1 + val2 + val3;
+    produto = val1*val2*val3;
 
-    printf("Resultado da soma: %f", soma);
+    printf("Resultado da soma: %f\nResultado do produto: %f", soma, produto);
 
     return 0;
 }
